@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("header.css");
+@import url("banner.css");
+@import url("galeria.css");
+@import url("footer.css");
+@import url("switch.css");
+@import url("responsividade.css");
+
+:root{
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #9834eb;
+    --secondary-color: #222024;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --branco: #fff;
+    --preto: #020202;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+
