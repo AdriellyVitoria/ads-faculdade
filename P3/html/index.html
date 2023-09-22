@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
+    <section>
+        <h1>Login</h1>
+        <div>
+            <form class="bg-secondary-subtle container">
+                <div class="row">
+                    <div class="mb-3 col-4">
+                        <label for="exampleInputEmail1" class="form-label mt-3">Nome Completo</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text" ></div>
+                    </div>
 
-    <h1>Olá mundo</h1>
-    <p></p>
-    
+                    <div class="mb-3 col-4">
+                        <label for="exampleInputEmail1" class="form-label mt-3">Adicione seu email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        
+                    </div>
+
+                    <div class="mb-3 col-4 mt-3">
+                        <label for="exampleInputPassword1" class="form-label">Telefone</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                </div>
+            </form>
+
+            <form class="bg-secondary-subtle container">
+                <div class='row'>
+                <div class="mb-3 col-4">
+                    <label for="exampleInputEmail1" class="form-label mt-3">Endereço</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text" ></div>
+                </div>
+
+                <div class="mb-3 col-4 mt-3">
+                    <label for="exampleInputPassword1" class="form-label">CEP</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+                <div class="mb-3 col-4 mt-3">
+                    <label for="exampleInputPassword1" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>   
+            </form>
+            <div class="row" >
+                <div class="mb-3 form-check col-4">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Salvar senha</label>
+                </div>
+                 
+            </div>
+            <div class="container">
+                <button type="submit" class="btn btn-primary mb-3 col-3 mt-3 float-center">Entrar</button> 
+
+            </div>
+                   
+        </div>            
+    </section>
+ 
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>

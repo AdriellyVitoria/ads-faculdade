@@ -1,0 +1,46 @@
+.cabeçario{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 24px;
+   border:solid white;
+   padding: 24px;
+}
+
+
+
+.imagem{
+    width: 180px;
+    border-radius: 90px;
+    border: 3px solid var(--fundo_letras);
+}
+
+.titulo{   
+    font-weight: 70;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+    font-weight : bold;
+    font-family: var(--fonte);
+    font-weight: 800;  
+}
+
+.texto_cabecario{
+    color: var(--letras);
+    background: var(--fundo_letras);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 0 25px;
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.descricao{
+    color: var(--marrom);
+    font-family: var(--fonte);
+    font-weight: 300;
+    padding: 15px;
+}
+

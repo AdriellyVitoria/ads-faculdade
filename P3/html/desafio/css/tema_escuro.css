@@ -1,0 +1,3 @@
+.escuro:checked ~ body {
+    background-color: aqua;
+}

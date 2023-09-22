@@ -1,0 +1,27 @@
+@import url(css/cabeçario.css);
+@import url(css/corpo.css);
+@import url(css/projetos.css);
+@import url(css/tema_escuro.css);
+:root{
+    --fundo: #f7d7d8;
+    --sub-fundo: #ffffff;
+    --letras: #f3e4df;
+    --fundo_letras: #e8a8a8;
+    --marrom: #9c8484;
+    --fonte: 'Inter', sans-serif;
+    }
+
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: var(--fundo);
+    align-items: center;
+}
+
+main {
+    margin: 50px;
+}
