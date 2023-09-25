@@ -2,6 +2,7 @@
 @import url(css/corpo.css);
 @import url(css/projetos.css);
 @import url(css/tema_escuro.css);
+@import url(css/video.css);
 :root{
     --fundo: #f7d7d8;
     --sub-fundo: #ffffff;

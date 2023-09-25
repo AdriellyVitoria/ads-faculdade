@@ -1,7 +1,30 @@
 .projetos {
     width: 100%;
+    margin-top: 24px;
 }
 
-.titulo_projeto{
-    text-align: center;
+.conteudo_links {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: var(--letras);
+    padding: 16px 24px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    width: 45%;
+}
+
+.card p {
+    font-size: 24px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 24px;
 }
