@@ -24,7 +24,3 @@ function openMenu(){
 hamburger.addEventListener("click", () => {
     openMenu();
 });
-
-navLink.array.forEach((n) => {
-    n.addEventListener("click", closeMenu));
-});
